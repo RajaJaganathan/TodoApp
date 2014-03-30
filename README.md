@@ -1,4 +1,4 @@
 TodoApp
 =======
 
-Todo Application with Jquery and JQuery Template
+Todo sample application developed with Jquery and JQuery Template library.
