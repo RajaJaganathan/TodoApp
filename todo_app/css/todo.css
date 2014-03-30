@@ -1,0 +1,78 @@
+﻿body {
+    background-color: #EEE;
+}
+
+.pageWrapper {
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 4px 4px 10px #808080;
+}
+
+.header {
+    
+}
+
+.header h2 {
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 1px solid #808080;
+}
+
+.contentWrapper {
+
+}
+
+.todoList {
+    list-style: none;
+    padding: 0px;
+}
+
+    .todoList li {      
+        border-bottom: 1px solid #dedbdb;
+    }
+
+    .todoList .todoRow {
+        background: rgba(255,255,255,0.75);
+        line-height: 42px;
+    }
+
+.todoRow span {
+    padding-left: 10px;
+}
+
+.cbHolder {
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    display: inline-block;
+    border-right: 3px solid #dedbdb;
+    border-left: 1px solid #dedbdb;
+}
+
+.todoList li:hover .cbHolder {
+    border-right: 3px solid #BDE052;
+}
+
+.todoList li:hover {
+    cursor: pointer;
+}
+
+.taskCompleted span {
+    text-decoration:line-through;
+}
+
+.buttonHolder {
+    height:80px;
+    line-height:80px;
+    text-align:center;
+}
+
+#txtTask {
+    height:35px;
+    width:300px;
+}
+
+#addTaskButton {
+    height:40px;
+    margin-left:-4.5px;
+}

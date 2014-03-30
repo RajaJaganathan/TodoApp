@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/todo.css" />
+    <script type="text/javascript" src="libs/jquery-2.1.0.js"></script>
+    <script src='http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js'></script>
+    <script type="text/javascript" src="js/todo.js"></script>    
+</head>
+<body>
+    <div class="pageWrapper">
+        <div class="header">
+            <h2>TODO VIA JQUERY WITHOUT MVC</h2>
+        </div>
+        <div class="contentWrapper">
+            <div class="content">
+                <ul class="todoList">
+                    <li>
+                        <div class="todoRow">
+                            <div class="cbHolder">
+                                <input type="checkbox" class="todoCheckbox" />
+                            </div>
+
+                            <span>Take out trash</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="todoRow">
+                            <div class="cbHolder">
+                                <input type="checkbox" class="todoCheckbox" />
+                            </div>
+
+                            <span>Take out trash</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="todoRow">
+                            <div class="cbHolder">
+                                <input type="checkbox" class="todoCheckbox" />
+                            </div>
+
+                            <span>Take out trash</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="todoRow">
+                            <div class="cbHolder">
+                                <input type="checkbox" class="todoCheckbox" />
+                            </div>
+                            <span>Take out trash</span>                       
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="buttonHolder">
+                <input id="txtTask" type="text" />
+                <input id="addTaskButton" type="button" value="Add Task" />
+            </div>
+        </div>
+
+    </div>
+
+    <script type='text/x-jquery-tmpl' id='task-template'>
+        <li>
+            <div class="todoRow">
+                <div class="cbHolder">
+                    <input type="checkbox" class="todoCheckbox" />
+                </div>
+                <span>${task}</span>
+            </div>
+        </li>
+    </script>
+</body>
+</html>
